@@ -16,7 +16,7 @@ if __name__ == '__main__':
 
 
     
-    print('utilizing %d cores\n'% processes)
+    print('utilizhjing %d cores\n'% processes)
     pool = Pool(processes)
 pool.map(f, range(processes))
 
